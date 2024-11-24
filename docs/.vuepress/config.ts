@@ -6,7 +6,7 @@ export default defineUserConfig({
   title: "尤小风",
   description: "个人博客",
 
-  base: "/",
+  base: "/myblog/",
 
   theme,
 });
