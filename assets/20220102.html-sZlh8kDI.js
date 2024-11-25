@@ -1,0 +1,5 @@
+import{_ as a}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as e,c as s,e as n}from"./app-sZwCoPd_.js";const t={},c=n(`<h1 id="为kubectl配置tab补全" tabindex="-1"><a class="header-anchor" href="#为kubectl配置tab补全" aria-hidden="true">#</a> 为kubectl配置tab补全</h1><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>yum <span class="token function">install</span> <span class="token parameter variable">-y</span> bash-completion
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;source &lt;(kubectl completion bash)&quot;</span> <span class="token operator">&gt;&gt;</span> ~/.bashrc
+<span class="token builtin class-name">source</span> ~/.bashrc
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2),l=[c];function i(o,r){return e(),s("div",null,l)}const b=a(t,[["render",i],["__file","20220102.html.vue"]]);export{b as default};
