@@ -3,11 +3,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://iuje.cn",
+  hostname: "https://zfeng296.github.io/myblog/",
 
   author: {
-    name: "Mr.Feng",
-    url: "https://iuje.cn",
+    name: "zfeng",
+    url: "https://zfeng296.github.io/myblog/",
   },
 
   iconAssets: "iconfont",
@@ -16,7 +16,7 @@ export default hopeTheme({
 
   repo: "zfeng296",
 
-  docsDir: "demo/src",
+  docsDir: "docs",
 
   // navbar
   navbar: navbar,
@@ -24,17 +24,17 @@ export default hopeTheme({
   // sidebar
   sidebar: sidebar,
 
-  footer: `<a href="http://beian.miit.gov.cn/" target="_blank">蜀ICP备20011675号-1</a>`,
+  footer: `<a href="https://zfeng296.github.io/myblog/" target="_blank">myblog</a>`,
 
-  copyright: "Copyright © 2020-present Mr.Feng",
+  copyright: "Copyright © 2020-present zfeng",
 
   displayFooter: true,
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    description: "一个DevOps小白",
-    intro: "/intro.html",
+    description: "DevOps engineer",
+    // intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
       // Bitbucket: "https://example.com",
